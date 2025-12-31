@@ -25,15 +25,3 @@ button {
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 }
-
-@media screen and (max-width: 768px) {
-  body {
-    background: red;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  body {
-    background: blue;
-  }
-}
