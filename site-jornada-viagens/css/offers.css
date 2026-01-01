@@ -24,6 +24,21 @@
     font-size: 40px;
     font-weight: var(--title-weight);
     margin: 8px 0;
+    padding: 0px;
+    margin-bottom: 24px;
+}
+
+.button{
+    width: 280px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+    font-size: 20;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 64px;
 }
 
 .card header span {

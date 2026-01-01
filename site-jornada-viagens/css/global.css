@@ -51,8 +51,14 @@ body{
   margin: 16px auto 32px;
 }
 
-@media screen and (min-widht:760px){
+@media screen and (min-width:760px){
   .section-title{
     font-size: 32px;
   }
+}
+
+@media screen and (min-width: 1024px){
+    .button:hover{
+      background-color: var(--primary-color);
+    }
 }
