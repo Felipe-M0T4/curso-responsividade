@@ -20,14 +20,6 @@
     font-weight: var(--text-weight);
 }
 
-.card header h3 {
-    font-size: 40px;
-    font-weight: var(--title-weight);
-    margin: 8px 0;
-    padding: 0px;
-    margin-bottom: 24px;
-}
-
 .button{
     width: 280px;
     height: 64px;
@@ -41,9 +33,32 @@
     line-height: 64px;
 }
 
+.card header h3 {
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    margin: 8px 0;
+    padding: 0px;
+    margin-bottom: 24px;
+}
+
 .card header span {
     font-size: 32px;
     font-weight: var(--title-weight);
     margin-top: 24px;
     display: inline-block;
+}
+
+@media screen and (min-width: 1024px){
+    .card{
+        width: 588px;
+        height: 308px;
+    }
+
+    .card header h3 {
+    font-size: 48px;
+    }
+
+    .card header span {
+    font-size: 40px;
+    }
 }
