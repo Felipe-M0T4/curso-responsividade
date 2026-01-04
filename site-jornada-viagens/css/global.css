@@ -39,6 +39,10 @@ body{
   margin: 0 auto 64px;
 }
 
+.section{
+  margin: 0 auto;
+}
+
 .section-title h2{
   font-size: 28px;
   font-weight: var(--title-weight);
