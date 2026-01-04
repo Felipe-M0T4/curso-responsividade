@@ -32,13 +32,17 @@ button {
 
 body{
   font-family: "Montserrat";
-  color: var(--text-primary-color)
+  color: var(--text-primary-color);
+}
+
+.section-title{
+  margin: 0 auto 64px;
 }
 
 .section-title h2{
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0;
+  margin: 0 auto;
   color: var(--text-primary-color);
   text-align: center;
 }
@@ -49,6 +53,21 @@ body{
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
+}
+
+.button{
+    width: 280px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    display: block;
+    text-decoration: none;
+    line-height: 64px;
+    text-align: center;
+    margin: 24px auto 40px;
 }
 
 @media screen and (min-width:760px){

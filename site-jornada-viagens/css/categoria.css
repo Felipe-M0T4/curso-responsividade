@@ -1,7 +1,6 @@
 .section-title{
     width: 312px;
-    margin: 0 auto;
-
+    margin: 64px auto;
 }
 .category-cards{
     display: flex;

@@ -14,7 +14,7 @@
     padding: 24px 16px;
     border-radius: 16px;
     text-align: center;
-    margin-bottom: 88px;
+    margin-bottom: 12px;
 }
 
 .card header {
@@ -26,19 +26,6 @@
 .card header p {
     font-size: 20px;
     font-weight: var(--text-weight);
-}
-
-.button{
-    width: 280px;
-    height: 64px;
-    color: var(--text-secondary-color);
-    font-weight: var(--title-weight);
-    font-size: 20;
-    background-color: var(--secondary-color);
-    border-radius: 16px;
-    display: inline-block;
-    text-decoration: none;
-    line-height: 64px;
 }
 
 .card header h3 {
