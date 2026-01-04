@@ -26,13 +26,11 @@
 }
 
 .item h4{
-    font-weight: var(--title-weight);
-    font-size: 24px;
+    margin: 24px 0;
 }
 
 .item p{
-    font-weight: var(--text-weight);
-    line-height: 32px;
+    margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px){
