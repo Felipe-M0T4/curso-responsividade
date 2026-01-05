@@ -65,7 +65,13 @@
     }
 }
 
-@media screen and (min-width: 1224px){
+@media screen and (min-width: 1024px){
+    .total-content{
+        margin: auto 60px;
+    }
+}
+
+@media screen and (min-width: 1240px){
     .total-content{
         display: flex;
         flex-direction: row;
@@ -85,5 +91,6 @@
         width: 790px;
         grid-template-columns: 384px 384px;
         grid-template-rows: 254px 182px;
+        margin: 0 auto;
     }
 }
