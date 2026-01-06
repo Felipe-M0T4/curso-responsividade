@@ -27,6 +27,10 @@
     height: 80px;
 }
 
+.truck{
+    width: 80px;
+}
+
 .card-categoria h3{
     display: inline-block;
     font-size: 20px;
