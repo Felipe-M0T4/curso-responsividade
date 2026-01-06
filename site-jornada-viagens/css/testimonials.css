@@ -1,5 +1,5 @@
 .testimonials{
-    margin: auto 24px;
+    margin: auto;
 }
 
 .testimonial-container{
@@ -20,7 +20,7 @@
     font-weight: var(--title-weight);
     margin: 0 0 8px;
     width: 176px;
-    margin: auto 24px auto auto;
+    margin: auto;
 }
 
 .testimonial-container footer .profile-content .rating .star{
