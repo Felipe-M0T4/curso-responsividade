@@ -1,0 +1,140 @@
+#footer{
+    background-color: var(--background-terciary-color);
+    
+    justify-content: space-between;
+    align-items: center;
+
+    height: 348px;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.footer-image{
+    background: url(../img/footer-mobile.jpg) no-repeat;
+
+    background-size: cover;
+
+    height: 360px;
+}
+
+.footer-logo{
+    display: block;
+    width: 162px;
+    margin: 32px auto 0;
+}
+
+#footer-container{
+    display: flex;
+    text-align: center;
+    height: 176px;
+    width: 312px;
+}
+
+.footer-p{
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 28px;
+    width: 312px;
+    text-align: center;
+    margin: 16px auto 32px;
+    gap: 8px;
+}
+
+.footer-container-2{
+    margin: 0 auto 32px;
+    color: var(--text-secondary-color);
+    text-align: center;
+}
+
+.contacts{
+    text-align: center;
+}
+
+/*------------------- TABLET ----------------------*/
+
+@media screen and (min-width: 768px){
+#footer{
+    justify-content: space-between;
+    align-items: center;
+
+    height: 300px;
+
+    position: relative;
+}
+
+.footer-image{
+    background: url(../img/footer-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 360px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 648px;
+}
+
+.footer-logo{
+    margin-bottom: 16px; 
+}
+
+.footer-p{
+    display: inline-block;
+    width: 512px;
+    margin: auto;
+    gap: 8px;
+    text-align: center;
+}
+
+.footer-container-2{
+    margin: 0 auto 32px;
+    color: var(--text-secondary-color);
+    text-align: center;
+}
+
+.footer-container-2 p{
+    margin: 16px auto 32px;
+}
+}
+
+/*------------------- DESKTOP ----------------------*/
+
+@media screen and (min-width: 1024px){
+    #footer{
+    justify-content: space-between;
+    flex-direction: row;
+    height: 232px;
+    }
+
+    .footer-image{
+    background: url(../img/footer-desktop.jpg) no-repeat;
+    background-size: cover;
+    height: 360px;
+}
+
+    .footer-container{
+        width: 592px;
+        height: 128px;
+        margin: 0px auto 52px 100px;
+        display: flex;
+        color: var(--text-secondary-color);
+    }
+
+    .footer-logo{
+        display: flex;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .footer-container-2{
+        height: 80px;
+        line-height: 16px;
+        width: 300px;
+        align-items: self-start;
+        margin: auto;
+    }
+}
