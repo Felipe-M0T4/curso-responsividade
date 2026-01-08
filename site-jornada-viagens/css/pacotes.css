@@ -2,6 +2,7 @@
     background: url(../img/hero-monte-fugi.jpg) no-repeat;
     background-size: cover;
     height: 400px;
+    display: flex;
 }
 
 .hero-content{
@@ -64,4 +65,26 @@
 #footer-pacotes{
     background: url(../img/footer-japao.jpg);
     background-size: cover;
+}
+
+@media screen and (min-width: 768px){
+    .fugi{
+        height: 620px;
+        display: flex;
+    }
+
+    .hero-content{
+        width: 580px;
+        margin: 210px auto 108px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .hero-content{
+        margin: 120px auto 0 120px;
+    }
+
+    .hero-content p{
+        line-height: 150%;
+    }
 }
