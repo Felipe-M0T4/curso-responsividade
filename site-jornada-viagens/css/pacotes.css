@@ -1,0 +1,67 @@
+.fugi{
+    background: url(../img/hero-monte-fugi.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.hero-content{
+    width: 312px;
+    margin: auto;
+}
+
+.hero-content p{
+    line-height: 32px;
+    font-weight: var(--text-weight);
+    color: var(--text-secondary-color);
+    font-size: 20px;
+}
+
+#hero-title{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+  text-align: left;
+}
+
+#hero-title hr{
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px 24px;
+}
+
+.hero-content h1{
+    font-weight: var(--title-weight);
+    font-size: 48px;
+    color: var(--text-secondary-color);
+}
+
+.total-content h2{
+    font-weight: var(--title-weight);
+    font-size: 40px;
+    line-height: 100%;
+}
+
+#pacotes .bag{
+    grid-area: bag;
+    background: url(../img/grid-templo.jpg) no-repeat;
+    background-size: cover;
+}
+
+#pacotes .passport{
+    grid-area: passport;
+    background: url(../img/grid-cidade.jpg) no-repeat;
+    background-size: cover;
+}
+
+#pacotes .people{
+    grid-area: people;
+    background: url(../img/grid-monge.jpg) no-repeat;
+    background-size: cover;
+}
+
+#footer-pacotes{
+    background: url(../img/footer-japao.jpg);
+    background-size: cover;
+}
